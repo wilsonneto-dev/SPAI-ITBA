@@ -23,6 +23,14 @@
     padding: 30px;
 }
 
+.home-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+    .home-wrapper main {
+        flex-grow: 1;
+    }
+
 /*Novidades com imagem, grande para chamar atenção.*/
 
 .novidades {
@@ -54,7 +62,6 @@
 .social {
     display: flex;
     flex-direction: column;
-    float: right;
     justify-content: center;
     text-align: center;
 
